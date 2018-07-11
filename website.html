@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="sample.css">
+<script src = "try.js"> </script>
+
+  <head>
+    <h1><strong>Megan!</strong></h1>
+  </head>
+  <body>
+    <div>
+    <strong>Bio:</strong>
+    <div>
+    I am a <em>17</em> year old girl from <em>California</em> who will be entering <em>12th</em> grade this year at South San Francisco High School. This summer,
+    I am a part of the Girls Who Code program at the Walmart Labs location! That's where I am learning how to make my very own website!
+
+    <p id = "demo"> hello date and time</p>
+    <button type= "button" onclick = "clickbutton()">
+    Click on me to display time and date. </button>
+
+    <div>
+    <strong>Likes:</strong>
+    <div>
+     golf, badminton, music, eating, hanging out with friends, sleep, ice cream, gelato, fries, boba
+     <p>
+    <a href = "large.jpg" class = "livethumbnail"> <img
+      src= "https://www.triplecrowngolfclub.com/wp-content/uploads/2016/11/bigstock-Golf-club-with-ball-on-grass-14088794-708x400.jpg" width="200" height="150" largewidth= "400" largeheight= "300" /> </a>
+    <img alt = "badminton birdies and racket";
+      src= "https://upload.wikimedia.org/wikipedia/commons/f/f9/Badminton-1428046.jpg" width="200" height="150">
+    <img alt = "ice cream sundae.";
+      src= "https://b.zmtcdn.com/data/pictures/chains/1/16843901/8fabc115848168a837b2a53577f31b0f_featured_v2.png" width="250" height="150">
+    <div>
+    <strong>Dislikes:</strong>
+    <div>
+    black licorice, raw tomatoes, reading for school, hot weather
+    <div>
+    Favorite Websites:
+    <a href= "https://google.com/"> Google.com </a>,
+    <a href= "https://youtube.com/"> Youtube.com </a>
+  </body>
+</html>
+
+//this is our javascript file
+function clickbutton() {
+  console.log("hello");
+  document.getElementById('demo').innerHTML = Date();
+}
